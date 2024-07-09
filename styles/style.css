@@ -86,26 +86,6 @@ body {
     /* background-color: red; */
 }
 
-.development-text-and-para {
-    margin-bottom: 48px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 24px;
-}
-
-.development-title {
-    font-size: 32px;
-    font-weight: 800;
-
-}
-
-.development-para {
-    font-size: 16px;
-    font-weight: 400;
-    text-align: center;
-}
-
 /* dev card one and three container start */
 .dev-card-container {
     width: 946px;
@@ -115,6 +95,7 @@ body {
     padding: 48px;
     display: flex;
     justify-content: space-between;
+    margin-top: 48px;
 }
 
 .card-text-left {
@@ -170,21 +151,25 @@ body {
 .dev-card-two-img-left {
     width: 50%;
 }
+
 .dev-card-two-text-right {
     width: 50%;
     display: flex;
     flex-direction: column;
     gap: 25px;
 }
-.dev-card-two-title{
+
+.dev-card-two-title {
     font-size: 24px;
     font-weight: 700;
 }
-.dev-card-two-para{
+
+.dev-card-two-para {
     font-size: 16px;
     font-weight: 400;
 }
-.dev-two-btn{
+
+.dev-two-btn {
     padding: 12px 20px;
     border: 1px solid #ABADB1;
     cursor: pointer;
@@ -197,6 +182,105 @@ body {
 
 /* dev-card-two-container end */
 
+/* inspiration section start */
 
+.inspiration-section {
+    width: 1140px;
+    height: 777px;
+    /* background-color: red; */
+    margin-top: 85px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+}
+
+.inspiration-title-and-para {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.inspiration-title {
+    font-size: 32px;
+    font-weight: 800px;
+}
+
+.inspiration-para {
+    font-size: 16px;
+    font-weight: 400px;
+    text-align: center;
+}
+
+.inspiration-youtube {
+    width: 1140px;
+    height: 614px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    background-color: #FFFFFF;
+}
+
+.inspiration-youtube>iframe {
+    width: 1076px;
+    height: 550px;
+    margin: 32px 32px;
+}
+
+/* inspiration section end */
+
+/* target section start */
+.target-section {
+    margin-top: 100px;
+
+}
+
+
+/* target section end */
+
+/* card section start */
+.target-card{
+    display: flex;
+    gap: 15px;
+    margin-top: 48px;
+}
+.card1, .card2, .card3{
+    width: 33.33%;
+    padding: 40px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.card1{
+    background-color: #FFF6F4;
+}
+.card2{
+    background-color:#F2F6FE;
+}
+.card3{
+    background-color:#FFFDF2;
+}
+.card-img{
+    width: 56px;
+    height: 56px;
+
+}
+.card-title{
+    font-size: 24px;
+    font-weight: 800;
+    
+}
+.card-para{
+
+    font-size: 16px;
+    font-weight: 400;
+}
+.target-card>div>a{
+    font-size: 16px;
+    font-weight: 700;
+}
+/* card section end */
 
 /* main section end */
