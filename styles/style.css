@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Inter", sans-serif;
+}
+
+/* header section start */
+.header-hero{
+    background-image: url('../assets/Hero-bg.png');
+    background-repeat: no-repeat;
+    margin: 10px auto 100px auto;
+    max-width: 1440px;
+    height: 652px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-container{
+    width: 998px;
+    height: 582px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+.header-image{
+    width: 240px;
+    height: 240px;
+}
+.header-title{
+    font-size: 48px;
+    font-weight: 600px;
+    color: #0D1321;
+    text-align: center;
+    line-height: 50px;
+}
+.header-para{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+.header-btn{
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 600px;
+    padding: 21px 24px;
+    background-color: #0D1321;
+    border-radius: 8px;
+    color:#fff;
+}
+
+/* header section end */
+
+
+
