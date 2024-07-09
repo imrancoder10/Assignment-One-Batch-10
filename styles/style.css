@@ -114,6 +114,7 @@ body {
 .card-para {
     font-size: 16px;
     font-weight: 400;
+    text-align: justify;
 }
 
 .card-btn {
@@ -240,12 +241,15 @@ body {
 /* target section end */
 
 /* card section start */
-.target-card{
+.target-card {
     display: flex;
     gap: 15px;
     margin-top: 48px;
 }
-.card1, .card2, .card3{
+
+.card1,
+.card2,
+.card3 {
     width: 33.33%;
     padding: 40px;
     border-radius: 16px;
@@ -253,34 +257,95 @@ body {
     flex-direction: column;
     gap: 20px;
 }
-.card1{
+
+.card1 {
     background-color: #FFF6F4;
 }
-.card2{
-    background-color:#F2F6FE;
+
+.card2 {
+    background-color: #F2F6FE;
 }
-.card3{
-    background-color:#FFFDF2;
+
+.card3 {
+    background-color: #FFFDF2;
 }
-.card-img{
+
+.card-img {
     width: 56px;
     height: 56px;
 
 }
-.card-title{
+
+.card-title {
     font-size: 24px;
     font-weight: 800;
-    
+
 }
-.card-para{
+
+.card-para {
 
     font-size: 16px;
     font-weight: 400;
 }
-.target-card>div>a{
+
+.target-card>div>a {
     font-size: 16px;
     font-weight: 700;
 }
+
 /* card section end */
+
+
+/* support secion start */
+.support-section {
+    width: 1140px;
+    height: 314px;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.849), rgba(0, 0, 0, 0.295)100%), url('../assets/handshake.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.support-container {
+    width: 1044px;
+    height: 186px;
+}
+
+.support-title,
+.support-para {
+    color: #fff;
+}
+
+.input-task {
+    margin-top: 30px;
+}
+
+.input-task input {
+    width: 548px;
+    height: 57px;
+    border: none;
+    padding: 0px 20px;
+    border-radius: 12px;
+    margin-right: 36px;
+}
+
+.input-task button {
+    width: 120px;
+    height: 58px;
+    border: none;
+    padding: 0px 20px;
+    border-radius: 12px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+/* support secion end */
+
 
 /* main section end */

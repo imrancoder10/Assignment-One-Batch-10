@@ -1,2 +1,5 @@
-Repository link: 
-Live link: 
+Repository link:
+https://github.com/imrancoder10/Assignment-One-Batch-10
+
+Live link:
+https://imrancoder10.github.io/Assignment-One-Batch-10/
