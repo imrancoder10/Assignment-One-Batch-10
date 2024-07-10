@@ -240,7 +240,53 @@ body {
     margin-top: 100px;
 
 }
-
+/* Next target section start */
+.next-target-container{
+    margin-top: 48px;
+}
+.target-card-container{
+    margin-top: 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.react-card{
+    border: 1px solid #E7E8E9;
+    border-radius: 12px;
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+}
+.react-card-text-right{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.node-card{
+    border: 1px solid #E7E8E9;
+    border-radius: 12px;
+    padding: 20px;
+    display: flex;
+    gap: 15px;
+}
+.node-card-text-right{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.mongo-card{
+    border: 1px solid #E7E8E9;
+    border-radius: 12px;
+    padding: 20px;
+    display: flex;
+    gap: 15px;
+}
+.mongo-card-text-right{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+/* Next target section end */
 
 /* target section end */
 
@@ -291,11 +337,12 @@ body {
     font-size: 16px;
     font-weight: 400;
 }
-
-.target-card>div>a {
+/* common for link */
+.target-card-link {
     font-size: 16px;
     font-weight: 700;
 }
+/* common for link */
 
 /* card section end */
 
@@ -334,7 +381,7 @@ body {
     border: none;
     padding: 0px 20px;
     border-radius: 12px;
-    margin-right: 36px;
+    margin-right: 25px;
 }
 
 .input-task button {
